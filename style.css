@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: black;
-    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
     margin: 56px auto 0px;
     padding: 0 24px;
     box-shadow: 8px 5px 30px black;
-    border: 1px solid red;
+    border: 1px solid #daa520;
 }
 .profile {
     display: flex;
@@ -29,9 +29,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 30px auto;
     border-radius: 100%;
-    border: 2px solid white;
+    border: 2px solid #daa520;
     box-shadow: 8px 5px 30px black;
 
 }
@@ -40,6 +40,7 @@ body {
     color: #daa520;
     text-align: center;
     margin: 10px auto;
+    font-size: 400;
     }
 
     .listas {
@@ -62,7 +63,7 @@ body {
     }
 
     li {
-        border: 1px solid #daa520;
+
         width: 100%;
     }
 
@@ -71,14 +72,41 @@ body {
         align-items: center;
         justify-content: center; 
         padding: 10px 24px;  
-        color: white;
+        color: black;
         background: #daa520;
         border: 1px solid #daa520;
         border-radius: 8px;
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
         text-decoration: none;
         font-weight: 500;
-        transition: background 0.2s;
+
     }
+
+    #social-links {
+        display: flex;
+        justify-content: center;
+        
+        padding: 5px 0;
+        font-size: 24px;
+    }
+    
+    #social-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        color: #daa520;
+        border-radius: 50%;
+    }
+    
+    #social-links a:hover {
+        background: white;
+        color: black;
+    }
+
+    .Listas li:hover{
+        transform:scale3d(3px)
+    }
+
+
+
 
