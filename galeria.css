@@ -17,7 +17,7 @@
 
 body {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     color: var(--text-color);
     font-family: 'Sofia Sans Condensed', sans-serif;
     background: black;
@@ -25,7 +25,7 @@ body {
     
 #container {
     width: 360px;
-    margin: 56px auto 0px;
+    margin: 0px auto 0px;
     padding: 0 24px;
     border: 1px solid var(--text-color);
     box-shadow: 8px 5px 30px black;
@@ -48,8 +48,8 @@ img {
 h1 {
     display: flex;
     justify-content: center;
-    margin: 10px auto 15px;
-    
+    margin: 30px auto 15px;
+
     
 }
 
