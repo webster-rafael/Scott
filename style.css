@@ -109,11 +109,12 @@ body {
         color: black;
     }
 
-    footer{
-        color: white;
+    .cidade{
+        color: #ffffff;
         text-align: center;
+        margin-top: 13px;
+        font-size: 0.9em;  
     }
-
 
 
 
