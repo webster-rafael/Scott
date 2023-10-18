@@ -43,6 +43,12 @@ body {
     font-size: 400;
     }
 
+    .title p {
+        color: white;
+        text-align: center;
+        line-height: 3px;
+    }
+
     .listas {
         display: flex;
         text-align: center;
@@ -101,6 +107,11 @@ body {
     #social-links a:hover {
         background: white;
         color: black;
+    }
+
+    footer{
+        color: white;
+        text-align: center;
     }
 
 
