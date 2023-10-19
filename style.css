@@ -102,11 +102,13 @@ body {
         padding: 16px;
         color: #daa520;
         border-radius: 50%;
+        font-size: 0.6em;
+        text-decoration: none;
+        transition: transform 0.3s;
     }
     
     #social-links a:hover {
-        background: white;
-        color: black;
+       transform: scale(1.1);
     }
 
     .cidade{
